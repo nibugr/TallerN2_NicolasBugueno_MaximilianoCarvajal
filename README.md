@@ -4,6 +4,7 @@
 ```
 - Estudiante: Nicolás Ignacio Bugueño Rementería
 - RUT : 20.007.300-2
+-Paralelo : C2
 -Nombre GitHub : nibugr
 - Carrera: Ingeniería Civil en Computación e informática 
 - Asignatura: Estructuras de Datos — 2° Semestre 2026
@@ -11,6 +12,7 @@
 
 - Estudiante: Maximiliano Carvajal
 - RUT : 22.090.639-6
+-Paralelo : C2
 -Nombre GitHub : maxi-ski
 - Carrera: Ingeniería Civil en Computación e informática 
 - Asignatura: Estructuras de Datos — 2° Semestre 2026
