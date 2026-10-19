@@ -4,7 +4,7 @@
 #include <string>
 #include "Cola.h"
 
-// Lee el archivo de pacientes (campos separados por '|') y los encola
+// Lee el archivo de pacientes (campos separados por ';') y los encola
 // respetando el orden de llegada (orden de las lineas del archivo).
 //
 // Retorna la cantidad de pacientes cargados, o -1 si no se pudo abrir el archivo.

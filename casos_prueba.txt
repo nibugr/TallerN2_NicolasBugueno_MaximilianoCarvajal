@@ -1,0 +1,27 @@
+# Casos de prueba del arbol de decision (valores limite incluidos)
+# ID;Nombre;Edad;Temperatura;PresionArterial;Dolor;TipoDolor;Trauma;SintomasNeurologicos;RequiereCirugia;DiasHospitalizacion
+# Limite de edad: 13 -> Pediatria, 14 -> sigue el arbol
+101;Caso Edad 13;13;37.0;120;3;otro;0;0;0;0
+102;Caso Edad 14;14;37.0;120;3;otro;0;0;0;0
+# Trauma
+103;Caso Trauma Con Cirugia;30;37.0;120;5;extremidad;1;0;1;2
+104;Caso Trauma Sin Cirugia;30;37.0;120;5;extremidad;1;0;0;0
+# Prioridad entre preguntas: trauma antes que neuro, neuro antes que pecho
+105;Caso Trauma y Neuro;30;37.0;120;5;cabeza;1;1;0;0
+106;Caso Neuro y Pecho;30;37.0;120;5;pecho;0;1;0;0
+107;Caso Solo Pecho;30;37.0;120;5;pecho;0;0;0;0
+# Limites de urgencia
+108;Caso Temp 38.4;30;38.4;120;3;otro;0;0;0;0
+109;Caso Temp 38.5;30;38.5;120;3;otro;0;0;0;0
+110;Caso Dolor 7;30;37.0;120;7;otro;0;0;0;0
+111;Caso Dolor 8;30;37.0;120;8;otro;0;0;0;0
+112;Caso Presion 179;30;37.0;179;3;otro;0;0;0;0
+113;Caso Presion 180;30;37.0;180;3;otro;0;0;0;0
+# Hospitalizacion: limite de dias
+114;Caso Dias 1;30;37.0;120;3;otro;0;0;0;1
+115;Caso Dias 2;30;37.0;120;3;otro;0;0;0;2
+# Niño con trauma: gana Pediatria por ser la primera pregunta
+116;Caso Nino Trauma;10;37.0;120;6;extremidad;1;0;1;0
+# Duplicado y datos invalidos (se descartan al cargar)
+101;Caso Duplicado;40;37.0;120;3;otro;0;0;0;0
+117;Caso Edad Invalida;200;37.0;120;3;otro;0;0;0;0

@@ -1,9 +1,9 @@
 # Archivo de prueba para validar la robustez de la carga
-1|Juan Perez|25|37.0|120|3|otro|0|0|0|0
-1|Juan Repetido|30|36.5|120|2|otro|0|0|0|0
-2|Ana Faltan Campos|40|36.5|120
-3|Beto Dolor Malo|40|36.5|120|15|otro|0|0|0|0
-4|Carla Tipo Raro|40|36.5|120|3|rodilla|0|0|0|0
-5|Diego Trauma Malo|40|36.5|120|3|otro|2|0|0|0
-abc|Sin ID|40|36.5|120|3|otro|0|0|0|0
-6|Eva Valida|35|36.6|115|2|otro|0|0|0|0
+1;Juan Perez;25;37.0;120;3;otro;0;0;0;0
+1;Juan Repetido;30;36.5;120;2;otro;0;0;0;0
+2;Ana Faltan Campos;40;36.5;120
+3;Beto Dolor Malo;40;36.5;120;15;otro;0;0;0;0
+4;Carla Tipo Raro;40;36.5;120;3;rodilla;0;0;0;0
+5;Diego Trauma Malo;40;36.5;120;3;otro;2;0;0;0
+abc;Sin ID;40;36.5;120;3;otro;0;0;0;0
+6;Eva Valida;35;36.6;115;2;otro;0;0;0;0

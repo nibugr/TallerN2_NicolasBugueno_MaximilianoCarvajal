@@ -59,7 +59,7 @@ static bool parsearLinea(const string& linea, Paciente& p, string& error) {
     string trozo;
     int n = 0;
 
-    while (getline(ss, trozo, '|')) {
+    while (getline(ss, trozo, ';')) {
         if (n >= NUM_CAMPOS) {
             error = "tiene mas de 11 campos";
             return false;
